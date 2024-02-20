@@ -1,11 +1,11 @@
 """
 Internal hook annotation, representation and calling machinery.
 """
+
 from __future__ import annotations
 
 import inspect
 import sys
-import warnings
 from types import ModuleType
 from typing import AbstractSet
 from typing import Any
@@ -23,6 +23,7 @@ from typing import TYPE_CHECKING
 from typing import TypedDict
 from typing import TypeVar
 from typing import Union
+import warnings
 
 from ._result import Result
 
